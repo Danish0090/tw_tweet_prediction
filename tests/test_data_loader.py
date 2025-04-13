@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 import sys #TODO fix path
 sys.path.append('src/text_loader')
-from loader import DataLoader
+from loader_new import DataLoader
 
 @pytest.fixture
 def mock_df() -> pd.DataFrame:
